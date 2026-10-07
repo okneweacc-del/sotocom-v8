@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.log
+
+# Output obfuscated files (test only)
+sotocom-v8-*.py
+test_*.py
+EOF
